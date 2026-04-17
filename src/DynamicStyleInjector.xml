@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="innovites.dynamicstyleinjector.DynamicStyleInjector" pluginWidget="true"
+    needsEntityContext="true" offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Dynamic Style Injector</name>
+    <description>Apply inline CSS styles using dynamic Mendix values.</description>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description>Content of a box</description>
+            </property>
+            <property key="styleTemplate" type="textTemplate">
+                <caption>Inline Style</caption>
+                <description>Apply inline CSS styles to the first container inside this widget.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
