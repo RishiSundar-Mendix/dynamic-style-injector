@@ -1,24 +1,41 @@
-## DynamicStyleInjector
-[My widget description]
+# Dynamic Style Injector
+
+A Mendix pluggable widget to apply dynamic inline CSS styles to container elements.
 
 ## Features
-[feature highlights]
+- Apply inline CSS styles dynamically
+- Supports Mendix expressions
+- Simple and lightweight
+- Works with any container content
 
 ## Usage
-[step by step instructions]
+1. Drag the widget into a page
+2. Add content inside the widget
+3. Provide inline CSS styles
 
-## Demo project
-[link to sandbox]
+### Example:
+border-top: 6px solid red; padding: 10px;
 
-## Issues, suggestions and feature requests
-[link to GitHub issues]
+## How it works
+The widget applies the provided inline CSS styles to the root container inside the widget.
 
-## Development and contribution
+## Notes
+- Only inline CSS is supported
+- Use `;` to separate multiple styles
+- CSS selectors (like `div {}`) are not supported
 
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
+## Preview
+<img width="1270" height="430" alt="image" src="https://github.com/user-attachments/assets/adb88e0c-9eb0-44e4-92aa-6c191d8bb6af" />
+<img width="1116" height="190" alt="image" src="https://github.com/user-attachments/assets/cd1e87f2-aa26-416f-b9da-9dc34044e47f" />
+<img width="910" height="805" alt="image" src="https://github.com/user-attachments/assets/2287d44e-d9df-47ee-b4ad-3eff770d58ed" />
 
-[specify contribution]
+## Built With
+- Mendix Pluggable Widgets
+- React
+- TypeScript
+
+## Author
+Rishi Sundar
+
+## License
+MIT
